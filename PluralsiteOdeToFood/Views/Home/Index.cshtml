@@ -1,0 +1,16 @@
+﻿@model IEnumerable<PluralsiteOdeToFood.Models.Restaurant>
+
+<div>
+    <h1> Here is a list of restaurants</h1>
+    <table>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>Name: @item.name</td>
+            </tr>
+
+        }
+    </table>
+
+</div>

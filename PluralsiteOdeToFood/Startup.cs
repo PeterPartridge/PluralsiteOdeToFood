@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Routing;
+using PluralsiteOdeToFood.Services;
 
 namespace PluralsiteOdeToFood
 {
@@ -18,6 +20,7 @@ namespace PluralsiteOdeToFood
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IGreeter, Greeter>();
+            services.AddScoped<IRestaurantData, InMemoryRestaurant>();
             services.AddMvc();
         }
 
@@ -66,7 +69,8 @@ namespace PluralsiteOdeToFood
             // app.UseDefaultFiles();
             app.UseStaticFiles();
 
-            app.UseMvcWithDefaultRoute();
+            app.UseMvc(configureRoutes);
+
             
             //app.UseFileServer();
 
@@ -75,8 +79,17 @@ namespace PluralsiteOdeToFood
              //   throw new Exception("Error");
 
                 string Greet = greet.MessageOfTheDay();
-                await context.Response.WriteAsync($"{Greet} : {env.EnvironmentName}");
+                context.Request.ContentType = "text/plain";
+                //await context.Response.WriteAsync($"{Greet} : {env.EnvironmentName}");
+                await context.Response.WriteAsync($"Not Found");
+
             });
+        }
+
+        private void configureRoutes(IRouteBuilder routeBuilder)
+        {
+            //Maproute cannot have spaces in the = section,but if their are spaces the system would look for / home/ Index instead of /home/index.
+            routeBuilder.MapRoute("Default","{controller=Home}/{action=Index}/{id?}");
         }
     }
 }

@@ -32,7 +32,7 @@ namespace PluralsiteOdeToFood.Controllers
 
             model.Restaurants = _restaurantData.GetAll();
             model.MessageOfTheDay = _greet.MessageOfTheDay();
-
+           
             return View(model);
         }
 

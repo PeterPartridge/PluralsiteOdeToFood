@@ -1,5 +1,7 @@
-﻿@model PluralsiteOdeToFood.Models.Restaurant
-
+﻿@model Restaurant
+@{
+    ViewBag.Title = Model.name;
+}
 <h2>@Model.name</h2>
 <div>
     @Model.id;

@@ -8,9 +8,11 @@ namespace PluralsiteOdeToFood.Services
 {
     public interface IRestaurantData
     {
+        
         IEnumerable<Restaurant> GetAll();
 
         Restaurant GetRestaurant(int id);
         Restaurant Add(Restaurant newRestraunt);
+        Restaurant Update(Restaurant restaurant);
     }
 }

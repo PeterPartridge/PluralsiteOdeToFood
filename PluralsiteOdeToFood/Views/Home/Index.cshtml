@@ -1,16 +1,23 @@
-﻿@model IEnumerable<PluralsiteOdeToFood.Models.Restaurant>
+﻿@model PluralsiteOdeToFood.ViewModels.HomeIndexViewModel;
 
 <div>
     <h1> Here is a list of restaurants</h1>
-    <table>
-
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>Name: @item.name</td>
-            </tr>
-
-        }
-    </table>
-
+    <div>
+        @Model.MessageOfTheDay
+    </div>
+    <div>
+        <table>
+            @foreach (var item in Model.Restaurants)
+            {
+                <tr>
+                    <td>Name: @item.name</td>
+                    <td>
+                    
+                        <a asp-action="Details" asp-route-id="@item.id">Get Details</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <a asp-action="Create" asp-controller="Home">Add a restaurant</a>
+    </div>
 </div>

@@ -9,3 +9,14 @@ C:\Users\PeterPlay\Source\Repos\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debu
 C:\Users\PeterPlay\Source\Repos\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.AssemblyInfo.cs
 C:\Users\PeterPlay\Source\Repos\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.dll
 C:\Users\PeterPlay\Source\Repos\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.pdb
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\bin\Debug\netcoreapp2.0\PluralsiteOdeToFood.deps.json
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\bin\Debug\netcoreapp2.0\PluralsiteOdeToFood.runtimeconfig.json
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\bin\Debug\netcoreapp2.0\PluralsiteOdeToFood.runtimeconfig.dev.json
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\bin\Debug\netcoreapp2.0\PluralsiteOdeToFood.dll
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\bin\Debug\netcoreapp2.0\PluralsiteOdeToFood.pdb
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.csprojResolveAssemblyReference.cache
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.AssemblyInfoInputs.cache
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.AssemblyInfo.cs
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.dll
+C:\Users\Peter\Documents\GitHub\PluralsiteOdeToFood\PluralsiteOdeToFood\obj\Debug\netcoreapp2.0\PluralsiteOdeToFood.pdb

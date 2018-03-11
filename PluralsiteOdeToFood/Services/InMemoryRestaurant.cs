@@ -23,7 +23,17 @@ namespace PluralsiteOdeToFood.Services
             return _restaurants.OrderBy(r => r.id);
         }
 
-   
+        public Restaurant GetRestaurant(int id)
+        {
+            return _restaurants.FirstOrDefault(r => r.id == id);
+        }
+
+        public Restaurant Add(Restaurant newRestraunt)
+        {
+            newRestraunt.id = _restaurants.Max(r => r.id + 1);
+            _restaurants.Add(newRestraunt);
+            return newRestraunt;
+        }
 
         List<Restaurant> _restaurants;
     }

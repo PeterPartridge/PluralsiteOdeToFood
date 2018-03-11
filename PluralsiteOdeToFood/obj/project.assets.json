@@ -13116,7 +13116,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PeterPlay\\.nuget\\packages\\": {},
+    "C:\\Users\\Peter\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13125,17 +13125,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\PeterPlay\\Source\\Repos\\PluralsiteOdeToFood\\PluralsiteOdeToFood\\PluralsiteOdeToFood.csproj",
+      "projectUniqueName": "C:\\Users\\Peter\\Documents\\GitHub\\PluralsiteOdeToFood\\PluralsiteOdeToFood\\PluralsiteOdeToFood.csproj",
       "projectName": "PluralsiteOdeToFood",
-      "projectPath": "C:\\Users\\PeterPlay\\Source\\Repos\\PluralsiteOdeToFood\\PluralsiteOdeToFood\\PluralsiteOdeToFood.csproj",
-      "packagesPath": "C:\\Users\\PeterPlay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PeterPlay\\Source\\Repos\\PluralsiteOdeToFood\\PluralsiteOdeToFood\\obj\\",
+      "projectPath": "C:\\Users\\Peter\\Documents\\GitHub\\PluralsiteOdeToFood\\PluralsiteOdeToFood\\PluralsiteOdeToFood.csproj",
+      "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Peter\\Documents\\GitHub\\PluralsiteOdeToFood\\PluralsiteOdeToFood\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\PeterPlay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13143,7 +13143,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "D:\\Downloads": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
